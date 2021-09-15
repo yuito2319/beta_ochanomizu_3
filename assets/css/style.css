@@ -29,11 +29,42 @@ body {
 }
 
 img {
+  width: 50%;
+}
+
+.title{
   width: 100%;
 }
 
+.title2{
+  width: 100%;
+}
+
+.q1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.q2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.q3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.endimage{
+  display: block;
+  width: 1080px;
+  height: 480px;
+}
 figure {
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figcaption {
@@ -78,7 +109,7 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: #006837;
+  background-color: #c204fc;
   color: #fff;
   width: 287px;
   height: 55px;
@@ -239,11 +270,11 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #39b54a;
+  background-color: #fad400;
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
+  background-color: #fad400;
 }
 
 .bg-color--gray {
@@ -255,6 +286,7 @@ button {
 **********************/
 .main-title {
   margin: 0;
+  width: 100%;
 }
 
 .sub-title {
@@ -274,7 +306,7 @@ button {
   line-height: 1.75;
   text-align: center;
   padding: 9px 20px;
-  background-color: #d9e021;
+  background-color: #c204fc;
   margin: 0 -20px 20px -20px;
 }
 
@@ -284,7 +316,7 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #8cc63f;
+  background-color: #c204fc;
 }
 
 .section-title--keycolorlight .section-title__stage {
@@ -292,7 +324,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #39b54a;
+  background-color: #c204fc;
 }
 
 .section-title--story {
@@ -336,7 +368,7 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #006837;
+  background-color: #470155;
   color: #fff;
   font-size: 24px;
   line-height: 1.54167;
@@ -510,3 +542,14 @@ button {
   display: none;
 }
 /*# sourceMappingURL=style.css.map */
+
+h2{
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #fff;
+}
